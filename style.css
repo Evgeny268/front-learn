@@ -1,0 +1,54 @@
+.appWindow {
+    border-radius: 10px;
+    background-color: #A9B1A1;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 800px;
+    min-height: 800px;
+}
+
+.resultWindow {
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    min-height: 80px;
+    padding-top: 10px;
+    background-color: #8B9386;
+}
+
+.resultText {
+    color: #F0F0EB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+
+.buttonsArea {
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #8B9386;
+}
+
+.calcButtonDigit {
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFE849;
+    color: #4D4D3D;
+}
+
+.calcButtonOperation {
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A9B1A1;
+    color: #4D4D3D;
+}
+
+button {
+    border: 0;
+}
