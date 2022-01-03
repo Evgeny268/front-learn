@@ -1,0 +1,96 @@
+.appWindow {
+    border-radius: 10px;
+    background-color: #A9B1A1;
+    color: var(--my-var);
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.resultWindow {
+    border-radius: 10px;
+    min-height: 80px;
+    padding-top: 10px;
+    background-color: #8B9386;
+}
+
+.resultText {
+    color: #F0F0EB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+
+    background-color: #8B9386;
+    user-select: none;
+}
+
+.buttonsRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.calcButton {
+    display: block;
+    position: relative;
+    width: 25%;
+
+&__height {
+     display: block;
+     margin-top: 100%;
+ }
+
+&__content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+     font-size: 24px;
+ }
+}
+
+.calcButtonDigit,
+.calcButtonOperation {
+    display: block;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calcButtonDigit {
+    background-color: #FFE849;
+    color: #4D4D3D;
+
+  &:hover, &:active {
+       background-color: #e5d041;
+   }
+}
+
+.calcButtonOperation {
+    background-color: #A9B1A1;
+    color: #4D4D3D;
+
+  &:hover, &:active {
+       background-color: #9fa697;
+   }
+}
+
+button {
+    border: 0;
+}
